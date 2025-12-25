@@ -16,10 +16,14 @@ VALUES
   ("108","PRINTER","2600","13"),
   ("109","REFILL CARTRIDGE","350","13"),
   ("110","MOUSE","250","12");
+
+
 SELECT pro_name, pro_price
    FROM PRODUCT
    WHERE pro_price = 
     (SELECT MIN(pro_price) FROM PRODUCT);
+
+    
 SELECT pro_name, pro_price
    FROM PRODUCT
    WHERE pro_price = 
