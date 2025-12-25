@@ -17,7 +17,7 @@ INSERT INTO STUDENT (ROLL_NO, NAME, ADDRESS, PHONE, AGE) VALUES
   ('5', 'AMAN', 'ROHTAK', '*****', 20),
   ('6', 'HARSH', 'GURGAON', '*****', 18);
 
--- Select all records from the Salesman table to verify insertion (if required)
+
 
 
 -- Select all records from the STUDENT table to verify insertion
